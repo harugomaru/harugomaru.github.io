@@ -1,0 +1,140 @@
+body {
+    background-attachment: fixed;
+    color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'M PLUS 1p', sans-serif;
+    }
+
+p {
+    text-indent: 1em;
+    }
+    
+.ul {
+    margin-bottom: 50px;
+}
+    
+h1 {
+    margin-top: 20px;
+    }
+
+a:link {
+    color: #888;
+    }
+
+a:visited {
+    color: #888;
+    }
+
+a:hover {
+    color: #CCC;
+    }
+
+a:active {
+    color: #CCC;
+    }
+
+.main {
+    border: 2px solid #CCC;
+    background-color: #FFF;
+    text-align: center;
+    box-shadow: 8px 8px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    }
+
+.paper {
+    border: 2px solid #CCC;
+    background-color: #FFF;
+    box-shadow: 8px 8px rgba(0,0,0,0.2);
+}
+
+.paper-b {
+    border: 2px solid #000;
+    background-color: #FFF;
+    box-shadow: 8px 8px rgba(0,0,0,0.2);
+}
+
+.koushin{
+    font-style: italic;
+    text-decoration: underline;
+    color: #CCC;
+
+}
+
+.row {
+  margin:20px auto;
+  width: 300px;
+  display: flex;
+  flex-wrap:wrap;
+  clear: both;
+}
+
+.col {
+  width: calc(100% / 3);
+  height: 25px;
+}
+
+@media screen and (min-width: 859px) {
+.main{
+    width: 800px;
+    min-height: 600px;
+    }
+
+img{
+    margin-top: 20px;
+}
+
+.content {
+    margin: 20px 10%;
+    text-align: left;
+}
+
+}
+
+@media screen and (max-width: 858px) and (min-width: 351px) {
+.main{
+    width: 95%;
+    height: auto;
+
+    }
+.content {
+    margin: 20px 10%;
+    text-align: left;
+}
+
+img{
+    width: 95%;
+    max-width: 300px;
+    height: auto;
+}
+
+}
+@media screen and (max-width: 350px) {
+
+.main{
+    width: 95%;
+    height: auto;
+    }
+.row{
+    width: 95%;
+}
+img{
+    width: 95%;
+    height: auto;
+}
+
+
+.content {
+    margin: 20px 20px;
+    text-align: left;
+}
+
+
+}
+
+
+
+
